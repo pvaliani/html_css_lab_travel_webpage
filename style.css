@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* come back here */
+/* maybe flex box */
+/* or reformat grid */
+#grid-container {
+    display: grid;
+    grid-template-areas: 
+    "header button";
+    grid-template-columns: 3fr 7fr;
+}
+
+body > header {
+    margin: 0;
+    text-indent: 20%;
+    background-color: rgb(53, 118, 138);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ body > header > nav > a > button {
+    outline: none;
+    background-color: rgb(60, 189, 176);
+    color: white;
+}
+
+#where-do-you-want-to-go {
+    background-color: rgb(20, 18, 39);
+    color: white;
+    padding: 15px;
+}
+
+#search-button {
+    background-color: rgb(255, 72, 0);
+    color: white;
+}
+
+#popular-destinations {
+    text-align: center;
+}
+
+.explore-img {
+    width: 30%;
+    height: 30%;
+    margin: 10px;
+    flex: 33%;
+}
+
+.image {
+    width: 30%;
+    height: 30%;
+    margin: 10px;
+    flex: 33%;
+}
+
+#popular-places {
+    text-align: center;
+}
+
+#customer-reviews {
+    background-color: rgb(61, 78, 110);
+    color: white;
+}
+
+#user-image {
+    border-radius: 50%;
+    /* width: 20%;
+    height: 20%;
+    margin: 40px;
+    flex: 33%; */
+}
+
+footer {
+    background-color: rgb(20, 18, 39);
+    color: white;
+}
